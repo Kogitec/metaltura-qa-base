@@ -9,7 +9,7 @@ elements:
   - name: flotte
     instanceOf: Core:Package
     elements:
-      - name: Car
+      - name: Vehicle
         instanceOf: Core:Class
         extends:
           - Core:RootElement
