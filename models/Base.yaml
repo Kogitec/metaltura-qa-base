@@ -13,10 +13,6 @@ elements:
         instanceOf: Core:Class
         extends:
           - Core:RootElement
-      - name: Bike
-        instanceOf: Core:Class
-        extends:
-          - Core:RootElement
       - name: Coach
         instanceOf: Core:Class
         extends:
