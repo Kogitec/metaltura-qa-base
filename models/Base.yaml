@@ -21,7 +21,7 @@ elements:
         instanceOf: Core:Class
         extends:
           - Core:RootElement
-      - name: Bus
+      - name: Coach
         instanceOf: Core:Class
         extends:
           - Core:RootElement
