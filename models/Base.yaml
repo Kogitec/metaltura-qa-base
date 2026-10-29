@@ -1,0 +1,7 @@
+name: Base
+instanceOf: Core:Model
+elements:
+  - name: Party
+    instanceOf: Core:Class
+    extends:
+      - Core:RootElement
