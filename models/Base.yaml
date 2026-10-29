@@ -1,7 +1,29 @@
 name: Base
 instanceOf: Core:Model
+version: latest
 elements:
   - name: Party
     instanceOf: Core:Class
     extends:
       - Core:RootElement
+  - name: flotte
+    instanceOf: Core:Package
+    elements:
+      - name: Car
+        instanceOf: Core:Class
+        extends:
+          - Core:RootElement
+      - name: Truck
+        instanceOf: Core:Class
+        extends:
+          - Core:RootElement
+      - name: Bike
+        instanceOf: Core:Class
+        extends:
+          - Core:RootElement
+      - name: Bus
+        instanceOf: Core:Class
+        extends:
+          - Core:RootElement
+  - name: atelier
+    instanceOf: Core:Package
