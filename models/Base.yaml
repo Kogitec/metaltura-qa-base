@@ -13,10 +13,6 @@ elements:
         instanceOf: Core:Class
         extends:
           - Core:RootElement
-      - name: Truck
-        instanceOf: Core:Class
-        extends:
-          - Core:RootElement
       - name: Bike
         instanceOf: Core:Class
         extends:
@@ -27,3 +23,8 @@ elements:
           - Core:RootElement
   - name: atelier
     instanceOf: Core:Package
+    elements:
+      - name: Truck
+        instanceOf: Core:Class
+        extends:
+          - Core:RootElement
